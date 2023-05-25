@@ -4,6 +4,7 @@ import WaveSurfer from 'wavesurfer.js';
 import Dropzone from 'react-dropzone';
 import AudioSyncPlugin from './AudioSync.js';
 import './App.css';
+import bannerImage from './banner.png';
 
 const App: React.FC = () => {
   const [file, setFile] = useState(null);
@@ -83,7 +84,7 @@ const App: React.FC = () => {
     return (
       <div className='App'>
          {/* banner image centered */}
-        <img src="/banner.png" alt="logo" style={{maxWidth: "20%", margin: "0 auto"}}/>
+        <img src={bannerImage} alt="logo" style={{maxWidth: "20%", margin: "0 auto"}}/>
         {!file ? (
           <Dropzone onDrop={handleFileDrop}>
             {({ getRootProps, getInputProps }) => (
