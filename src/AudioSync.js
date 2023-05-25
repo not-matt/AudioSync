@@ -361,8 +361,8 @@ export default class AudioSyncPlugin {
                 squaredDistances.push(squaredDistance)
 
                 // Calculate the threshold for a significant change based on the cooldown duration
-                const threshold = this.cooldownCounter; // Adjust the threshold as needed
-                const triggered = squaredDistance > threshold
+                // const threshold = this.cooldownCounter; // Adjust the threshold as needed
+                // const triggered = squaredDistance > threshold
 
                 // Draw the three spectral features in the top quarter of the canvas
                 const lfcColor = "255, 0, 0"

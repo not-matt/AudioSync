@@ -26,10 +26,10 @@ const App: React.FC = () => {
 
   useEffect(() => {
     AudioSyncInstance?.updateSettings(AudioSyncSettings);
-  }, [AudioSyncSettings]);
+  }, [AudioSyncSettings]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleFileDrop = (files: string | any[]) => {
-    if (!files || files.length == 0) {
+    if (!files || files.length === 0) {
       setFile(null);
       setIsLoading(false);
       return
@@ -62,7 +62,7 @@ const App: React.FC = () => {
 
       const wavesurfer = WaveSurfer.create(options);
 
-      const AudioSyncInstance = wavesurfer["AudioSync"];
+      // const AudioSyncInstance = wavesurfer["AudioSync"];
 
       wavesurfer.load(url);
       setWaveform(wavesurfer);

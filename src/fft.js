@@ -1,5 +1,7 @@
 /* eslint-disable complexity, no-redeclare, no-var, one-var */
 
+import { error } from "console";
+
 /**
  * Calculate FFT - Based on https://github.com/corbanbrook/dsp.js
  *
@@ -143,13 +145,13 @@ export default function FFT(bufferSize, sampleRate, windowFunc, alpha) {
         var k = Math.floor(Math.log(bufferSize) / Math.LN2);
 
         if (Math.pow(2, k) !== bufferSize) {
-            throw 'Invalid buffer size, must be a power of 2.';
+            throw error('Invalid buffer size, must be a power of 2.');
         }
         if (bufferSize !== buffer.length) {
-            throw 'Supplied buffer is not the same size as defined FFT. FFT Size: ' +
-            bufferSize +
-            ' Buffer Size: ' +
-            buffer.length;
+            throw error('Supplied buffer is not the same size as defined FFT. FFT Size: ' +
+                bufferSize +
+                ' Buffer Size: ' +
+                buffer.length);
         }
 
         var halfSize = 1,
