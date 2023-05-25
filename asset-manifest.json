@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a4b3153.css",
-    "main.js": "/static/js/main.e5238c59.js",
-    "static/js/787.6d8df82b.chunk.js": "/static/js/787.6d8df82b.chunk.js",
-    "index.html": "/index.html",
-    "main.3a4b3153.css.map": "/static/css/main.3a4b3153.css.map",
-    "main.e5238c59.js.map": "/static/js/main.e5238c59.js.map",
-    "787.6d8df82b.chunk.js.map": "/static/js/787.6d8df82b.chunk.js.map"
+    "main.css": "/AudioSync/static/css/main.3a4b3153.css",
+    "main.js": "/AudioSync/static/js/main.12d42f8b.js",
+    "static/js/787.6d8df82b.chunk.js": "/AudioSync/static/js/787.6d8df82b.chunk.js",
+    "index.html": "/AudioSync/index.html",
+    "main.3a4b3153.css.map": "/AudioSync/static/css/main.3a4b3153.css.map",
+    "main.12d42f8b.js.map": "/AudioSync/static/js/main.12d42f8b.js.map",
+    "787.6d8df82b.chunk.js.map": "/AudioSync/static/js/787.6d8df82b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a4b3153.css",
-    "static/js/main.e5238c59.js"
+    "static/js/main.12d42f8b.js"
   ]
 }
