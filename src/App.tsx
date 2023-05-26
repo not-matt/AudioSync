@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button, CircularProgress, TextField } from '@mui/material';
+import { Button, CircularProgress } from '@mui/material';
 import WaveSurfer from 'wavesurfer.js';
 import Dropzone from 'react-dropzone';
 import { debounce } from 'lodash';

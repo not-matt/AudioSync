@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Slider, Typography } from '@mui/material';
+import { Slider } from '@mui/material';
 
 interface SliderComponentProps {
   windowSize: number;
