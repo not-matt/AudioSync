@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/AudioSync/static/css/main.3a4b3153.css",
-    "main.js": "/AudioSync/static/js/main.f990f69a.js",
+    "main.js": "/AudioSync/static/js/main.0d8cc483.js",
     "static/js/787.6d8df82b.chunk.js": "/AudioSync/static/js/787.6d8df82b.chunk.js",
     "static/media/banner.png": "/AudioSync/static/media/banner.bb208426e61074f61beb.png",
     "index.html": "/AudioSync/index.html",
     "main.3a4b3153.css.map": "/AudioSync/static/css/main.3a4b3153.css.map",
-    "main.f990f69a.js.map": "/AudioSync/static/js/main.f990f69a.js.map",
+    "main.0d8cc483.js.map": "/AudioSync/static/js/main.0d8cc483.js.map",
     "787.6d8df82b.chunk.js.map": "/AudioSync/static/js/787.6d8df82b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a4b3153.css",
-    "static/js/main.f990f69a.js"
+    "static/js/main.0d8cc483.js"
   ]
 }
