@@ -85,6 +85,9 @@ export default class AudioSyncPlugin {
     updateSettings(settings) {
         this.settings = settings;
         console.log(this.settings)
+        if (this.featuresData) {
+            this.calculateSpectralFeatures();
+        }
         this.drawSpectralFeatures();
     }
 
