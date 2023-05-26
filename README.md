@@ -9,6 +9,17 @@ The real-time audio segmentation algorithm described here is specifically develo
 - **Coherent**: The algorithm segments the audio into coherent sections that are consistent with the music. Sometimes it might miss a section or detect a section that is not present, but overall, the sections are consistent enough with the music to create a pleasing visual effect.
 - **Lightweight**: The algorithm is lightweight and can be implemented on microcontrollers such as the ESP32. It is also highly optimized to minimize computational load.
 
+<!-- centred badges -->
+<div align="center">
+
+<!-- a badge showing build status -->
+![Build Status](https://img.shields.io/github/actions/workflow/status/not-matt/AudioSync/deploy.yaml?style=for-the-badge)
+
+<!-- A badge linking to the github pages site saying Live Demo - Try it out! -->
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Try%20it%20out!-blue?style=for-the-badge)](https://not-matt.github.io/AudioSync/)
+
+</div >
+
 ## Algorithmic Outline
 
 1. **Frame-based analysis**: The audio is processed frame by frame in real-time. Each frame represents a short segment of the audio signal. The frame size is typically 512 samples, which corresponds to 11.6 ms at a sampling rate of 44.1 kHz. The frame size can be adjusted to fit the existing system requirements with little detriment to the algorithm's performance.
